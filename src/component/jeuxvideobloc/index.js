@@ -57,7 +57,9 @@ const Jeuxvideobloc = ({contenu, imagebloc,imagetitle,title}) => {
     font-weight: 500;
     font-family: robotoboldcondensed,Arial,Helvetica,sans-serif;
     font-size: 14px;
+    font-weight:bold;
     word-wrap: break-word;
+    opacity:80%;
   `
    const UlContent= styled.ul`
    `

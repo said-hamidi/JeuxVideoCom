@@ -2,21 +2,17 @@ import React from 'react';
 import styled from 'styled-components'
 
 const Blablabloc = ({contenu, imageparam}) => {
-    
     return (
       <Container>
           <ContentBloc>
               <Content>{contenu.map(c => {return<Styledlist>{c.name}</Styledlist>})}</Content>
-              
-        </ContentBloc>
-
-          
+        </ContentBloc> 
       </Container>
     )
   }
 
   const Content= styled.div`
-    border-color:white;
+    background-color:white;
     border:2px solid;
     align-items:center;
     color: #fff;
@@ -24,6 +20,7 @@ const Blablabloc = ({contenu, imageparam}) => {
     font-size: 12px;
     word-wrap: break-word;
     margin-bottom:2px;
+    padding:10px;
   `
   const Styledlist= styled.div`
   display:flex;
@@ -31,23 +28,17 @@ const Blablabloc = ({contenu, imageparam}) => {
   justify-content:center;
   background: #48566b;
   margin-bottom: 5px;
-  padding: 0px 0px 5px 10px;
+  padding: 5px;
   `
   const ContentBloc = styled.div`
-  /* position: absolute; */
     margin-left:10px;
     margin-right:10px;
-    margin-bottom:15px;
-    
+    margin-bottom:15px; 
   `
   const Container = styled.div`
-  border-bottom:2px solid;
-  border-color:#d5d5d5;
   margin-left:10px; 
   margin-right:10px; 
 `
-
-
 
 export default Blablabloc
   

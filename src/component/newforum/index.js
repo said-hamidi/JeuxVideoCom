@@ -1,13 +1,9 @@
 import React from 'react';
 import styled from 'styled-components'
 
-
-
 const NewsForum = ({titlenew,imagenew}) => {
-    
     return (
       <Container>
-          
           <ForumNews>
             <TitleNewForum>{titlenew}</TitleNewForum>          
             <ImageNewForum src={imagenew}></ImageNewForum>
@@ -41,8 +37,6 @@ const ImageNewForum=styled.img`
 `
 
 const Container = styled.div`
-    border-bottom:2px solid;
-    border-color:#d5d5d5;
     margin-left:10px; 
     margin-right:10px; 
 `

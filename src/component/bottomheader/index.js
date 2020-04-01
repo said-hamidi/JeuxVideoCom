@@ -21,8 +21,6 @@ const BottomHeader = ({contenu, imageparam}) => {
   }
 
 const Container = styled.div`
-    border-bottom:2px solid;
-    border-color:#d5d5d5;
     margin-left:10px; 
     margin-right:10px; 
 `
