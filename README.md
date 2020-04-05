@@ -1,4 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Mode d'utilisation:
+
+Cette app est constituée de 3 pages:
+-/login: contenant la connexion vers l'app
+-/jeuxvideo.com: contenant la page principal ( j'ai commis une erreur cette page n'été pas à réaliser) et la redirection vers la page forum.
+-/forum:contenant la page d'un forum, dans notre cas elle contien le forum sur le sujet "Animal Crossing: New Horizons" ainsi que ses commentaires (l'ajout d'un commentaire n'a pas été réalisé).
+
+Use Case: Un utilisateur se connecte, consulte un forum et ses comentaire puis il commente
+-Lancer l'App, vous vous retrouverez sur la page login,
+-Entrez votre Pseudo et votre Mot de passe,
+-Valider,
+-Vous êtes rediriger vers la page principale, cliquer le titre "Animal Crossing: New Horizons" situé dans l'image du bloc "Forum à la une",
+-Vous serez sur la page forum, ainsi vous pouvez consulter les commentaires liée au sujet convenu,
+-(ajout de commentaire à voir)
+
+
+
+
+
+
+
+<!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -65,4 +86,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->

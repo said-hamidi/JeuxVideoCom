@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components'
+import searchparam from '../../Image/searchparam.png'
+import imageparam from '../../Image/roulette.png'
 
-const BottomHeader = ({contenu, imageparam}) => {
-    
+const BottomHeader = ({contenu}) => {
     return (
       <Container>
           <Param>
@@ -12,9 +13,8 @@ const BottomHeader = ({contenu, imageparam}) => {
           <SearchBar>
                   <Input placeholder="Rechercher un forum"></Input>
                   <Hold>
-                  <SearchImg src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQh52c8876st1hzqd3UHxy1cm3Vh1-5PSf-9tUuRdeD8eOg4n1q"></SearchImg>
-                  </Hold>
-                    
+                  <SearchImg src={searchparam}></SearchImg>
+                  </Hold>      
           </SearchBar>
       </Container>
     )
@@ -38,8 +38,9 @@ const SearchIcon = styled.img`
     align-items: center;
     justify-content:flex-end;
     flex:1;
-    max-width:20px;
-    max-height:20px;
+    margin-top:3px;
+    max-width:40px;
+    max-height:25px;
 `
 const SearchBar = styled.div`
     background-color:white;
@@ -50,7 +51,6 @@ const SearchBar = styled.div`
     color:grey;
     border: 1px solid;
     margin-bottom:25px;
-    
 `
 const Input = styled.input`
     background-color:transparent;
@@ -68,17 +68,4 @@ const Hold=styled.div`
     justify-content:flex-end;
     flex:1;
 `
-
 export default BottomHeader
-
-
-
-//   {/* <ContentBloc>
-//     {contenu.map(c => {
-
-//         return<p>{c.name}</p>})}
-//         </ContentBloc> */}
-
-//   const ContentBloc = styled.div`
-//     background-color: yellow;
-//   `

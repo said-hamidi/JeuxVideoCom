@@ -6,10 +6,8 @@ const BorderBottomConnect = () => {
       <Container></Container>
     )
   }
-
  const Container = styled.div`
- border-bottom:30px solid;
- border-color:#cfcfdc;
+        border-bottom:30px solid;
+        border-color:#cfcfdc;
 `
-
 export default BorderBottomConnect
